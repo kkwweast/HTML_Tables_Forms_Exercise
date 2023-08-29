@@ -1,0 +1,27 @@
+html{
+    /*changed font size of root element (html) */
+    font-size: 24px;
+    /* rem, em */
+}
+
+th { 
+
+    padding-inline: 20px;
+}
+
+td {
+    
+    text-align: center;
+
+}
+
+thead > tr{background-color: rgb(47, 39, 71);
+
+}
+
+tbody > tr:nth-child(2n){
+    background-color: blueviolet;
+}
+tbody >tr:nth-last-child(2n-1){
+    background-color: lightskyblue;
+}
