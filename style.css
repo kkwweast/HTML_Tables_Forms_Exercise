@@ -1,8 +1,22 @@
+   
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+   {
+    box-sizing: border-box;
+}
+}
+h1, h2, h3 {
+    color:#0094c8;
+}
+
+
 html{
     /*changed font size of root element (html) */
-    font-size: 24px;
+    font-size: 20px;
+    font-family:  Arial, sans-serif
     /* rem, em */
-}
+}}
 
 th { 
 
@@ -15,13 +29,55 @@ td {
 
 }
 
-thead > tr{background-color: rgb(47, 39, 71);
+thead > tr{background-color: rgb(192, 120, 195);
 
 }
 
-tbody > tr:nth-child(2n){
-    background-color: blueviolet;
+tbody > ){
+    min-height: 100vh;
+    margin: 0;
+    padding: 24px;
+    background :-o-linear-gradient(to botttom right, #333, #111);
+    color #3a0303
 }
-tbody >tr:nth-last-child(2n-1){
-    background-color: lightskyblue;
+
+
+main {
+    max-width: 800px;
+    margin: 24px auto;
+    padding: 10px;
+    text-align: center; 
+}
+section{
+    border-radius: 8px;
+    background: linear-gradient(to bottom right, #e4d9d9, #fff)
+    box-shadow: 5px 5px 10px #OOO;
+    color: #111;
+    padding: 12px;
+};
+
+
+fieldset {
+ border: none;
+}
+label, input{
+    display: block;
+    padding: 8px;
+    margin: 6px auto;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+
+
+
+}
+input{
+    border-bottom: 1px inset #0094;
+}
+input:focus{
+   outline : 3px solid #0094c8;
+
+} 
+a:hover {
+    text-decoration: underline;
 }

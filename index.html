@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Tables and Forms</title>
-    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet"href="./style.css">
   </head>
   <body>
     <main>
-      <!-- Complete the Exercises HERE -->
-    <table>
+  <h1>Soda Water</h1>
+  <section>
+    <h2>Soda Information</h2>
+         <table>
       <thead>
       <tr>
         <th>Cola Cola</th>
@@ -51,33 +53,51 @@
         <td>60 grams suagr</td>
         <td>60 sodium</td>
        </tr>
-
     </tr>
     </table>
     <thead>
-    <form>
-    <tbody>
-      <tr></tr>
       <form>
-      <label for="drink>"drink</label>
-      <imput type="text"name=drink" id="drink">
+        <fieldset>
 
-      <label for="servings">total servings</label>
-      <imput type="text" name="servings" id="servings>
+        </fieldset>
 
-      <label for="serving size">serving size<label>
-      <imput for="text"name="serving size" id="serving size">
+      <label for="drinkName">Name</label>
+      <imput type="text"name="drinkName" id="drinkName">
+        <fieldset>
 
-      <label for="calories">calories per serving</label>
-      <imput type="text"name="calories" id="calories"></imput>
+        </fieldset>
 
-      <label for="carbs"> carbs per servings</label>
-      <imput type="text">name="carbs" id="carbs">
+      <label for="totalServings">Total Servings</label>
+      <fieldset>
 
+      </fieldset>
+    
 
+      <label for="calories">Calories</label>
+      <imput type="number" name="calories" id="calories">
+        <fieldset>
+
+        </fieldset>
+
+      <label for="carbs">Carbs (g) <label>
+      <imput for="number"name="carbs" id="carbs">
+        <fieldset>
+
+        </fieldset>
+
+      <label for="sugars">Sugar(g)</label>
+      <imput type="text"name="sugars" id="sugars"></imput>
+      <fieldset>
+
+      </fieldset>
       
-      
+      <label for="sodium">sodium (mg)</label>
+      <fieldset>
+      </fieldset>
+       <button type="submit">Add Info</button>  
+      </fieldset>
     </form>
-    </tbody>
+  </section>
+  </main>
   </body>
 </html>
