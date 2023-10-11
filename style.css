@@ -1,83 +1,91 @@
    
-  <link rel="stylesheet" type="text/css" href="styles.css">
-
-
-   {
+  /* Reset some default styles */
+* {
     box-sizing: border-box;
-}
-}
-h1, h2, h3 {
-    color:#0094c8;
-}
-
-
-html{
-    /*changed font size of root element (html) */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set styles for headings h1, h2, h3 */
+  h1, h2, h3 {
+    color: #0094c8;
+  }
+  
+  /* Set styles for the root element (html) */
+  html {
     font-size: 20px;
-    font-family:  Arial, sans-serif
-    /* rem, em */
-}}
-
-th { 
-
-    padding-inline: 20px;
-}
-
-td {
-    
+    font-family: Arial, sans-serif;
+    /* Note: You were missing a semicolon after font-family */
+  }
+  
+  /* Style table header cells (th) */
+  th {
+    padding: 20px; /* Use 'padding' instead of 'padding-inline' */
+  }
+  
+  /* Style table data cells (td) */
+  td {
     text-align: center;
-
-}
-
-thead > tr{background-color: rgb(192, 120, 195);
-
-}
-
-tbody > ){
+  }
+  
+  /* Style the table header row background */
+  thead > tr {
+    background-color: rgb(192, 120, 195);
+  }
+  
+  /* Style the table body rows */
+  tbody {
     min-height: 100vh;
     margin: 0;
     padding: 24px;
-    background :-o-linear-gradient(to botttom right, #333, #111);
-    color #3a0303
-}
-
-
-main {
+    background: -o-linear-gradient(to bottom right, #333, #111); /* Corrected syntax */
+    color: #3a0303;
+  }
+  
+  /* Style the main content */
+  main {
     max-width: 800px;
     margin: 24px auto;
     padding: 10px;
-    text-align: center; 
-}
-section{
+    text-align: center;
+  }
+  
+  /* Style sections */
+  section {
     border-radius: 8px;
-    background: linear-gradient(to bottom right, #e4d9d9, #fff)
-    box-shadow: 5px 5px 10px #OOO;
+    background: linear-gradient(to bottom right, #e4d9d9, #fff);
+    box-shadow: 5px 5px 10px #000; /* Corrected syntax */
     color: #111;
     padding: 12px;
-};
-
-
-fieldset {
- border: none;
-}
-label, input{
+  }
+  
+  /* Style fieldsets (form fieldsets) */
+  fieldset {
+    border: none;
+  }
+  
+  /* Style labels and input elements */
+  label, input {
     display: block;
     padding: 8px;
     margin: 6px auto;
     width: 100%;
     max-width: 400px;
     border: none;
-
-
-
-}
-input{
-    border-bottom: 1px inset #0094;
-}
-input:focus{
-   outline : 3px solid #0094c8;
-
-} 
-a:hover {
+  }
+  
+  /* Style input elements */
+  input {
+    border-bottom: 1px inset #0094c8;
+  }
+  
+  /* Style input elements when focused */
+  input:focus {
+    outline: 3px solid #0094c8;
+  }
+  
+  /* Style links on hover */
+  a:hover {
     text-decoration: underline;
-}
+  }
+  
